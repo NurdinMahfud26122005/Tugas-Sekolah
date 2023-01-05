@@ -1,0 +1,55 @@
+i {
+    cursor: pointer;
+  }
+
+body{
+   background-image: url(bg2.webp);
+}
+
+ 
+
+  i:hover {
+    filter: brightness(80%);
+  }
+  
+  .form-switch {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) scale(1.5);
+  }
+  
+  input:focus {
+    box-shadow: none !important;
+  }
+
+  
+  
+  
+  body,
+  .card,
+  input,
+  .btn {
+    transition: all 1s;
+  }
+  
+  body.darkMode {
+    background-image: url(bg.webp);
+  }
+  
+  .card.darkMode {
+    background-color: #0E6efd !important;
+    color: #858585 !important;
+    border: 1px solid #0E6efd;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #6e6e6e;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .btn.darkMode {
+    background-color: #513ef8;
+    border: 1px solid #a3a2a2;
+    
+  }
